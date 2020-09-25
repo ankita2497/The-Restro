@@ -1,5 +1,6 @@
 {
   "name": "learn-redux",
+  "homepage": "https://ankita2497.github.io/The-Restro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +26,8 @@
     "validator": "^13.1.17"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
