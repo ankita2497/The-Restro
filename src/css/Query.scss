@@ -1,0 +1,201 @@
+@media only screen and (max-width: 765px) {
+  p {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+  }
+  nav {
+    position: fixed;
+    background: #fff;
+    top: 0;
+    h1 {
+      transform: translate(75%, 0%);
+    }
+    li {
+      padding: 3rem;
+    }
+  }
+  #special {
+    padding-top: 4rem;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .list-item {
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    height: 100vh;
+    background: #fff;
+    width: 100%;
+    transform: translateX(-500px);
+    text-align: center;
+    transition: 0.5s ease-in-out;
+  }
+  .Cart {
+    font-size: 1.2rem;
+    transform: translate(35%, 3%);
+  }
+  .carousel-item {
+    display: block;
+    .heading-content {
+      padding: 5rem 0rem;
+      text-align: center;
+    }
+  }
+  .carousel-item h1 {
+    font-size: 2rem;
+  }
+  #about-us {
+    flex-direction: column;
+  }
+  .container {
+    text-align: center;
+  }
+  #special .special-item {
+    padding: 1rem;
+    .single-special-item img {
+      max-width: 30%;
+    }
+  }
+  #reservation {
+    form {
+      align-items: center;
+      .form-content {
+        flex-direction: column;
+      }
+    }
+    .footer-content {
+      flex-direction: column;
+    }
+    footer .footer-content div {
+      width: 100%;
+    }
+  }
+  #menu {
+    .products {
+      padding: 2rem;
+    }
+    .products .product {
+      width: 100%;
+    }
+  }
+  .cartContainer {
+    width: 100%;
+    margin-top: 3rem;
+    padding: 0rem;
+    flex-direction: column;
+    .cartDetails {
+      width: 100%;
+    }
+    .cartDetails .cartProductPrice {
+      width: 10%;
+      padding: 0rem 4rem 0rem 0rem;
+    }
+    .cartDetails .inc,
+    .cartDetails .dec {
+      padding: 0rem;
+    }
+    .cartSummary {
+      width: 90%;
+    }
+  }
+  #header {
+    .content {
+      height: 90vh;
+    }
+    .title {
+      font-size: 4rem;
+    }
+    .information {
+      visibility: hidden;
+    }
+    .desc {
+      flex: 0 0 100%;
+      transform: translate(0%, 7%);
+    }
+    .heart {
+      top: 77%;
+    }
+    .arrows .prev,
+    .arrows .next {
+      top: 85%;
+    }
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 765px) {
+  .container {
+    padding: 0rem 2rem;
+  }
+  #about-us {
+    flex-direction: column;
+  }
+  #special .special-item .single-special-item {
+    flex-basis: 650px;
+  }
+  #reservation footer .footer-content {
+    flex-direction: column;
+    div {
+      width: 100%;
+    }
+  }
+  #menu .products .product {
+    width: 50%;
+  }
+  .cartContainer {
+    flex-direction: column;
+    padding: 0rem;
+    .cartDetails {
+      width: 100%;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .cartDetails .cartProImage {
+      width: 25%;
+      height: 120px;
+    }
+    span {
+      font-size: 1.5rem;
+    }
+    .cartSummary {
+      width: 100%;
+      padding: 3rem;
+      div {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  #signup {
+    input {
+      padding: 1rem;
+      font-size: 2rem;
+    }
+    span {
+      padding: 2rem 2rem 1.4rem 2rem;
+    }
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1300px) {
+  .container {
+    padding: 0rem;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 765px) {
+  #header {
+    .heart {
+      left: 35%;
+      top: 46%;
+    }
+    .desc {
+      transform: translate(0%, -27%);
+    }
+  }
+}
+@media only screen and (max-width: 1100px) and (min-width: 1000px) {
+  #header {
+    .heart {
+      top: 38%;
+      left: 45%;
+    }
+  }
+}
