@@ -26,7 +26,7 @@ function App() {
               <Route path="/reservation" component={Reservation} />
               <Route path="/signup" component={SignUp} />
               <Route path="/cart" exact component={Cart} />
-              <Route component={Error} />
+              <Route path="*" component={Error} />
             </Switch>
           </Router>
         </CartContextProvider>
