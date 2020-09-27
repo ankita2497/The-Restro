@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15c300f312e4af001a1ade14a85c25b4",
+    "revision": "c52ff9dce44cad0d7f18bdbadb3894ee",
     "url": "/The-Restro/index.html"
   },
   {
-    "revision": "ded38ec6aa399436a7c6",
+    "revision": "2e66584e49b7f0819044",
     "url": "/The-Restro/static/css/main.f844c248.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/The-Restro/static/js/2.64240cbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ded38ec6aa399436a7c6",
-    "url": "/The-Restro/static/js/main.c23f7fca.chunk.js"
+    "revision": "2e66584e49b7f0819044",
+    "url": "/The-Restro/static/js/main.79e5dc29.chunk.js"
   },
   {
     "revision": "ff817fa635b48bcd1b3a",

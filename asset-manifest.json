@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/The-Restro/static/css/main.f844c248.chunk.css",
-    "main.js": "/The-Restro/static/js/main.c23f7fca.chunk.js",
-    "main.js.map": "/The-Restro/static/js/main.c23f7fca.chunk.js.map",
+    "main.js": "/The-Restro/static/js/main.79e5dc29.chunk.js",
+    "main.js.map": "/The-Restro/static/js/main.79e5dc29.chunk.js.map",
     "runtime-main.js": "/The-Restro/static/js/runtime-main.5477088d.js",
     "runtime-main.js.map": "/The-Restro/static/js/runtime-main.5477088d.js.map",
     "static/js/2.64240cbb.chunk.js": "/The-Restro/static/js/2.64240cbb.chunk.js",
     "static/js/2.64240cbb.chunk.js.map": "/The-Restro/static/js/2.64240cbb.chunk.js.map",
     "index.html": "/The-Restro/index.html",
-    "precache-manifest.d63e3eb7667cdc91ca67d6265a7012c7.js": "/The-Restro/precache-manifest.d63e3eb7667cdc91ca67d6265a7012c7.js",
+    "precache-manifest.56d4d527be802f3d700b6cfcbdb8ddb4.js": "/The-Restro/precache-manifest.56d4d527be802f3d700b6cfcbdb8ddb4.js",
     "service-worker.js": "/The-Restro/service-worker.js",
     "static/css/main.f844c248.chunk.css.map": "/The-Restro/static/css/main.f844c248.chunk.css.map",
     "static/js/2.64240cbb.chunk.js.LICENSE.txt": "/The-Restro/static/js/2.64240cbb.chunk.js.LICENSE.txt",
@@ -54,6 +54,6 @@
     "static/js/runtime-main.5477088d.js",
     "static/js/2.64240cbb.chunk.js",
     "static/css/main.f844c248.chunk.css",
-    "static/js/main.c23f7fca.chunk.js"
+    "static/js/main.79e5dc29.chunk.js"
   ]
 }
