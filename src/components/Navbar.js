@@ -24,20 +24,20 @@ const Navbar = ({ cartToggle }) => {
             <Link to="/The-Restro">Home</Link>
           </li>
           <li>
-            <Link to="/special">Special</Link>
+            <Link to="/The-Restro/special">Special</Link>
           </li>
           <li>
-            <Link to="/product">Menu</Link>
+            <Link to="/The-Restro/product">Menu</Link>
           </li>
           <li>
-            <Link to="/reservation">Reservation</Link>
+            <Link to="/The-Restro/reservation">Reservation</Link>
           </li>
           <li>
-            <Link to="/signup">Signup</Link>
+            <Link to="/The-Restro/signup">Signup</Link>
           </li>
         </ul>
         <li onClick={cartToggle} className="Cart">
-          <Link to="/cart">
+          <Link to="/The-Restro/cart">
             <span className="dollor">
               <i className="fas fa-cart-plus"></i>
             </span>

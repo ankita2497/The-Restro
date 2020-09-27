@@ -21,11 +21,15 @@ function App() {
             <Navbar />
             <Switch>
               <Route path="/The-Restro" exact component={Home} />
-              <Route path="/special" exact component={Special} />
-              <Route path="/product" exact component={Products} />
-              <Route path="/reservation" exact component={Reservation} />
-              <Route path="/signup" exact component={SignUp} />
-              <Route path="/cart" exact component={Cart} />
+              <Route path="/The-Restro/special" exact component={Special} />
+              <Route path="/The-Restro/product" exact component={Products} />
+              <Route
+                path="/The-Restro/reservation"
+                exact
+                component={Reservation}
+              />
+              <Route path="/The-Restro/signup" exact component={SignUp} />
+              <Route path="/The-Restro/cart" exact component={Cart} />
               <Route path="*" component={Error} />
             </Switch>
           </Router>
