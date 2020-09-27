@@ -104,23 +104,6 @@
     .content {
       height: 90vh;
     }
-    .title {
-      font-size: 4rem;
-    }
-    .information {
-      visibility: hidden;
-    }
-    .desc {
-      flex: 0 0 100%;
-      transform: translate(0%, 7%);
-    }
-    .heart {
-      top: 77%;
-    }
-    .arrows .prev,
-    .arrows .next {
-      top: 85%;
-    }
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 765px) {

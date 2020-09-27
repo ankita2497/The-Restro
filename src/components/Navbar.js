@@ -9,7 +9,7 @@ const Navbar = ({ cartToggle }) => {
     <>
       <nav>
         <h1 className="Logo">
-          <Link to="/">
+          <Link to="/The-Restro">
             <span>The</span> Restro
           </Link>
         </h1>
@@ -21,7 +21,7 @@ const Navbar = ({ cartToggle }) => {
           style={{ transform: open ? "translateX(0px)" : "" }}
         >
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/The-Restro">Home</Link>
           </li>
           <li>
             <Link to="/special">Special</Link>

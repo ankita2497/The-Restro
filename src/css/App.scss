@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Playfair+Display:wght@700&display=swap");
 $main-color: #1d930f;
 $secondary-color: #0d114d;
 $para-color: #706e6e;
@@ -39,8 +40,8 @@ h3 {
   position: relative;
 }
 p {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   padding: 1rem 0rem;
   color: $para-color;
 }
@@ -105,93 +106,39 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    z-index: -1;
-    padding: 3rem 0rem;
+    padding: 1rem 0rem;
   }
-
-  .title {
-    flex: 0 0 100%;
-    font-size: 8rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: $secondary-color;
-  }
-
-  .tagline {
-    flex: 1;
-    font-size: 30px;
-    color: $para-color;
-  }
-
-  .more {
-    flex: 1;
-    & a {
-      text-decoration: none;
-      font-size: 20px;
-      color: #fff;
-      background: $main-color;
-      padding: 10px 30px;
-      border-radius: 10px;
+  .information {
+    padding-left: 4rem;
+    .btn {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
     }
   }
-
-  .desc {
-    flex: 0 0 32%;
-    transform: translate(0%, -37%);
-    span {
-      color: #aecd31;
-    }
+  span {
+    display: block;
   }
-
-  .desc p:nth-child(1) {
-    font-size: 30px;
-    margin-bottom: 20px;
+  h1 {
+    font-size: 4rem;
+    font-family: "Playfair Display", serif;
   }
-
-  .heart {
+  img {
+    max-width: 46%;
+    width: 100%;
+  }
+  .icons {
     position: absolute;
-    top: 50%;
-    left: 52%;
-    z-index: -1;
-    img {
-      animation: float 4s ease-in-out infinite;
-      max-width: 100%;
+    right: 2%;
+    bottom: 5%;
+    i {
+      padding: 0.5rem;
+      background: #fff;
+      margin: 0rem 0.5rem;
+      border-radius: 50%;
+      font-weight: bold;
+      box-shadow: 0px 3px 5px -1px $para-color;
     }
-  }
-
-  @keyframes float {
-    0% {
-      transform: translate(-50%, -46%);
-    }
-    50% {
-      transform: translate(-50%, -54%);
-    }
-    100% {
-      transform: translate(-50%, -46%);
-    }
-  }
-  .arrows .prev {
-    position: absolute;
-    top: 78%;
-    left: 100px;
-  }
-  .arrows .next {
-    position: absolute;
-    top: 78%;
-    right: 100px;
-  }
-
-  .arrows button {
-    border: 1px solid $para-color;
-    background: transparent;
-    padding: 20px;
-    border-radius: 50%;
-    outline: none;
-  }
-
-  .arrows button:hover {
-    color: $secondary-color;
-    background: $main-color;
   }
 }
 
@@ -288,7 +235,6 @@ nav {
     h4 {
       display: flex;
       justify-content: space-between;
-      text-transform: capitalize;
       font-size: 1.5rem;
       border-bottom: 1px dashed $secondary-color;
       margin-bottom: 5px;

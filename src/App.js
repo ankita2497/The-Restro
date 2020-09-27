@@ -20,11 +20,11 @@ function App() {
           <Router>
             <Navbar />
             <Switch>
-              <Route path="/" component={Home} />
-              <Route path="/special" component={Special} />
+              <Route path="/The-Restro" exact component={Home} />
+              <Route path="/special" exact component={Special} />
               <Route path="/product" exact component={Products} />
-              <Route path="/reservation" component={Reservation} />
-              <Route path="/signup" component={SignUp} />
+              <Route path="/reservation" exact component={Reservation} />
+              <Route path="/signup" exact component={SignUp} />
               <Route path="/cart" exact component={Cart} />
               <Route path="*" component={Error} />
             </Switch>

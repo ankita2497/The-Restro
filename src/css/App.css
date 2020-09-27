@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Playfair+Display:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -43,8 +44,8 @@ h3 {
 }
 
 p {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   padding: 1rem 0rem;
   color: #706e6e;
 }
@@ -131,126 +132,47 @@ nav a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: -1;
-  padding: 3rem 0rem;
+  padding: 1rem 0rem;
 }
 
-#header .title {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
-  font-size: 8rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #0d114d;
+#header .information {
+  padding-left: 4rem;
 }
 
-#header .tagline {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  font-size: 30px;
-  color: #706e6e;
+#header .information .btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
 }
 
-#header .more {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+#header span {
+  display: block;
 }
 
-#header .more a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #fff;
-  background: #1d930f;
-  padding: 10px 30px;
-  border-radius: 10px;
+#header h1 {
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
 }
 
-#header .desc {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 32%;
-          flex: 0 0 32%;
-  -webkit-transform: translate(0%, -37%);
-          transform: translate(0%, -37%);
+#header img {
+  max-width: 46%;
+  width: 100%;
 }
 
-#header .desc span {
-  color: #aecd31;
-}
-
-#header .desc p:nth-child(1) {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-#header .heart {
+#header .icons {
   position: absolute;
-  top: 50%;
-  left: 52%;
-  z-index: -1;
+  right: 2%;
+  bottom: 5%;
 }
 
-#header .heart img {
-  -webkit-animation: float 4s ease-in-out infinite;
-          animation: float 4s ease-in-out infinite;
-  max-width: 100%;
-}
-
-@-webkit-keyframes float {
-  0% {
-    -webkit-transform: translate(-50%, -46%);
-            transform: translate(-50%, -46%);
-  }
-  50% {
-    -webkit-transform: translate(-50%, -54%);
-            transform: translate(-50%, -54%);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -46%);
-            transform: translate(-50%, -46%);
-  }
-}
-
-@keyframes float {
-  0% {
-    -webkit-transform: translate(-50%, -46%);
-            transform: translate(-50%, -46%);
-  }
-  50% {
-    -webkit-transform: translate(-50%, -54%);
-            transform: translate(-50%, -54%);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -46%);
-            transform: translate(-50%, -46%);
-  }
-}
-
-#header .arrows .prev {
-  position: absolute;
-  top: 78%;
-  left: 100px;
-}
-
-#header .arrows .next {
-  position: absolute;
-  top: 78%;
-  right: 100px;
-}
-
-#header .arrows button {
-  border: 1px solid #706e6e;
-  background: transparent;
-  padding: 20px;
+#header .icons i {
+  padding: 0.5rem;
+  background: #fff;
+  margin: 0rem 0.5rem;
   border-radius: 50%;
-  outline: none;
-}
-
-#header .arrows button:hover {
-  color: #0d114d;
-  background: #1d930f;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 3px 5px -1px #706e6e;
+          box-shadow: 0px 3px 5px -1px #706e6e;
 }
 
 #about-us {
@@ -408,7 +330,6 @@ nav a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  text-transform: capitalize;
   font-size: 1.5rem;
   border-bottom: 1px dashed #0d114d;
   margin-bottom: 5px;
