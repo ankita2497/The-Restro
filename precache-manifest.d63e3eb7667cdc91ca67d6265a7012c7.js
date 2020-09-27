@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81de244575f2bc669a8c18b91af4ee59",
+    "revision": "15c300f312e4af001a1ade14a85c25b4",
     "url": "/The-Restro/index.html"
   },
   {
-    "revision": "66676f7fd1f1153551f4",
-    "url": "/The-Restro/static/css/main.9d75463f.chunk.css"
+    "revision": "ded38ec6aa399436a7c6",
+    "url": "/The-Restro/static/css/main.f844c248.chunk.css"
   },
   {
     "revision": "ece57b263239924a6acc",
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/The-Restro/static/js/2.64240cbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66676f7fd1f1153551f4",
-    "url": "/The-Restro/static/js/main.60be7fb7.chunk.js"
+    "revision": "ded38ec6aa399436a7c6",
+    "url": "/The-Restro/static/js/main.c23f7fca.chunk.js"
   },
   {
     "revision": "ff817fa635b48bcd1b3a",
     "url": "/The-Restro/static/js/runtime-main.5477088d.js"
-  },
-  {
-    "revision": "02ee26a85c73b1ef1d75ca4b5b4e4426",
-    "url": "/The-Restro/static/media/aaaa.02ee26a8.jpg"
   },
   {
     "revision": "12f75725213cdc9d6c064dca6c97d49a",
@@ -86,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d404434c2210c555430f5d662a2b2e77",
     "url": "/The-Restro/static/media/featured4.d404434c.jpg"
+  },
+  {
+    "revision": "bdf9c704a9a1864e6c30e9aaa016cc45",
+    "url": "/The-Restro/static/media/header_img.bdf9c704.svg"
   },
   {
     "revision": "044dd34169864361f45668c74719765f",
