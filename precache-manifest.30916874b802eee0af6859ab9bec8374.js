@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c52ff9dce44cad0d7f18bdbadb3894ee",
+    "revision": "4848a548263d192da66fb05165210e53",
     "url": "/The-Restro/index.html"
   },
   {
-    "revision": "2e66584e49b7f0819044",
-    "url": "/The-Restro/static/css/main.f844c248.chunk.css"
+    "revision": "c961d4d85f27b2cbeebc",
+    "url": "/The-Restro/static/css/main.61d90d10.chunk.css"
   },
   {
-    "revision": "ece57b263239924a6acc",
-    "url": "/The-Restro/static/js/2.64240cbb.chunk.js"
+    "revision": "86c8552465c5e4ca9db1",
+    "url": "/The-Restro/static/js/2.04f1be8b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/The-Restro/static/js/2.64240cbb.chunk.js.LICENSE.txt"
+    "url": "/The-Restro/static/js/2.04f1be8b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e66584e49b7f0819044",
-    "url": "/The-Restro/static/js/main.79e5dc29.chunk.js"
+    "revision": "c961d4d85f27b2cbeebc",
+    "url": "/The-Restro/static/js/main.7f3fd647.chunk.js"
   },
   {
     "revision": "ff817fa635b48bcd1b3a",
