@@ -14,6 +14,20 @@
       padding: 3rem;
     }
   }
+  #header {
+    .content {
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    img {
+      max-width: 70%;
+    }
+    .icons {
+      bottom: 3%;
+    }
+  }
   #special {
     padding-top: 4rem;
   }
@@ -35,16 +49,6 @@
   .Cart {
     font-size: 1.2rem;
     transform: translate(35%, 3%);
-  }
-  .carousel-item {
-    display: block;
-    .heading-content {
-      padding: 5rem 0rem;
-      text-align: center;
-    }
-  }
-  .carousel-item h1 {
-    font-size: 2rem;
   }
   #about-us {
     flex-direction: column;
@@ -110,6 +114,18 @@
   .container {
     padding: 0rem 2rem;
   }
+  #header {
+    h1 {
+      font-size: 3rem;
+    }
+    .information {
+      margin-left: 2rem;
+    }
+    .icons {
+      top: 37%;
+      bottom: 0%;
+    }
+  }
   #about-us {
     flex-direction: column;
   }
@@ -158,27 +174,14 @@
     }
   }
 }
-@media only screen and (max-width: 1500px) and (min-width: 1300px) {
-  .container {
-    padding: 0rem;
+@media only screen and (max-width: 1500px) and (min-width: 1200px) {
+  .empty-cart {
+    width: 140%;
   }
 }
-@media only screen and (max-width: 900px) and (min-width: 765px) {
-  #header {
-    .heart {
-      left: 35%;
-      top: 46%;
-    }
-    .desc {
-      transform: translate(0%, -27%);
-    }
-  }
-}
-@media only screen and (max-width: 1100px) and (min-width: 1000px) {
-  #header {
-    .heart {
-      top: 38%;
-      left: 45%;
-    }
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+  p {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
   }
 }

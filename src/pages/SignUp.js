@@ -10,15 +10,18 @@ function SignUp() {
     email: "",
     password: "",
     password2: "",
-    successMsg: false,
     errorMsg: false,
-    loading: false,
   });
-  const handleChange = (event) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    if (name === "email") {
+      if (!value.match(/^[a-z0-9@.A-Z]*$/)) {
+        return false;
+      }
+    }
     setFormData({
       ...formData,
-      [event.target.name]: event.target.value,
-      successMsg: "",
+      [e.target.name]: e.target.value,
       errorMsg: "",
     });
   };
@@ -47,7 +50,7 @@ function SignUp() {
     } else {
       setFormData({
         ...formData,
-        successMsg: "Validation Success",
+        successMsg: "",
       });
     }
   };
@@ -58,9 +61,6 @@ function SignUp() {
           <div>
             <div>
               <p className="alert">{formData.errorMsg}</p>
-              <p className="alert" style={{ color: "green" }}>
-                {formData.successMsg}
-              </p>
             </div>
             <div>
               <span>

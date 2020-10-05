@@ -15,6 +15,21 @@
   nav li {
     padding: 3rem;
   }
+  #header .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #header h1 {
+    font-size: 2rem;
+  }
+  #header img {
+    max-width: 70%;
+  }
+  #header .icons {
+    bottom: 3%;
+  }
   #special {
     padding-top: 4rem;
   }
@@ -39,16 +54,6 @@
     font-size: 1.2rem;
     -webkit-transform: translate(35%, 3%);
             transform: translate(35%, 3%);
-  }
-  .carousel-item {
-    display: block;
-  }
-  .carousel-item .heading-content {
-    padding: 5rem 0rem;
-    text-align: center;
-  }
-  .carousel-item h1 {
-    font-size: 2rem;
   }
   #about-us {
     -webkit-box-orient: vertical;
@@ -123,6 +128,16 @@
   .container {
     padding: 0rem 2rem;
   }
+  #header h1 {
+    font-size: 3rem;
+  }
+  #header .information {
+    margin-left: 2rem;
+  }
+  #header .icons {
+    top: 37%;
+    bottom: 0%;
+  }
   #about-us {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -180,27 +195,16 @@
   }
 }
 
-@media only screen and (max-width: 1500px) and (min-width: 1300px) {
-  .container {
-    padding: 0rem;
+@media only screen and (max-width: 1500px) and (min-width: 1200px) {
+  .empty-cart {
+    width: 140%;
   }
 }
 
-@media only screen and (max-width: 900px) and (min-width: 765px) {
-  #header .heart {
-    left: 35%;
-    top: 46%;
-  }
-  #header .desc {
-    -webkit-transform: translate(0%, -27%);
-            transform: translate(0%, -27%);
-  }
-}
-
-@media only screen and (max-width: 1100px) and (min-width: 1000px) {
-  #header .heart {
-    top: 38%;
-    left: 45%;
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+  p {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
   }
 }
 /*# sourceMappingURL=Query.css.map */

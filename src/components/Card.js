@@ -16,7 +16,7 @@ function Card(props) {
             <i className="fas fa-star-half-alt"></i>
             {props.rate}
           </span>
-          <Link to="/product">
+          <Link to="/The-Restro/product">
             <button className="btn">
               <i className="fas fa-chevron-right"></i>
             </button>

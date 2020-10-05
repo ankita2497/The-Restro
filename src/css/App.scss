@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Playfair+Display:wght@700&display=swap");
 $main-color: #1d930f;
 $secondary-color: #0d114d;
@@ -31,6 +31,10 @@ a {
   i {
     padding: 0.5rem;
   }
+  &:hover {
+    background-color: #117705;
+    transition: 0.5s ease-in-out;
+  }
 }
 h2 {
   font-size: 2rem;
@@ -41,7 +45,7 @@ h3 {
 }
 p {
   font-size: 1.2rem;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   padding: 1rem 0rem;
   color: $para-color;
 }
@@ -60,6 +64,8 @@ p {
 .list-item {
   display: flex;
   z-index: 5;
+  position: absolute;
+  right: 10%;
 }
 //---x---Global style---x---//
 
@@ -79,8 +85,23 @@ nav {
     font-size: 1.2rem;
     z-index: 5;
   }
-  a:hover {
-    border-bottom: 2px solid $main-color;
+  a {
+    position: relative;
+    padding-bottom: 0.3rem;
+    &::before {
+      content: "";
+      width: 0px;
+      height: 5px;
+      background: $main-color;
+      position: absolute;
+      top: 100%;
+      left: -20px;
+      transition: 0.5s;
+    }
+  }
+  li:hover a::before {
+    width: 60%;
+    transform: translateX(100%);
   }
 }
 .dollor {
@@ -104,12 +125,11 @@ nav {
 #header {
   .content {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem 0rem;
   }
   .information {
-    padding-left: 4rem;
     .btn {
       margin-top: 1rem;
       padding: 0.5rem 1rem;
@@ -130,7 +150,6 @@ nav {
   .icons {
     position: absolute;
     right: 2%;
-    bottom: 5%;
     i {
       padding: 0.5rem;
       background: #fff;
@@ -415,15 +434,6 @@ nav {
       text-align: center;
       padding: 1rem;
     }
-    .move-up span {
-      font-size: 2rem;
-      background: $main-color;
-      padding: 0.5rem;
-      cursor: pointer;
-      position: absolute;
-      bottom: 20%;
-      right: 2%;
-    }
   }
 }
 /* Cart */
@@ -578,5 +588,17 @@ nav {
     color: red;
     font-weight: 900;
     text-transform: uppercase;
+  }
+}
+.empty-cart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 73vh;
+  h5 {
+    color: red;
+    font-size: 2rem;
   }
 }

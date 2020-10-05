@@ -65,11 +65,6 @@ function Resrvcmnt() {
                 <p>Monday-Friday 7:00 A.M- 9:00 P.M +918359433216</p>
               </div>
             </div>
-            <div className="move-up">
-              <span>
-                <i className="fas fa-arrow-circle-up"></i>
-              </span>
-            </div>
           </div>
           <hr />
           <p className="copyright">

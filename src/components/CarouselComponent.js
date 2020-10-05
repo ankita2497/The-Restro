@@ -15,11 +15,13 @@ function CarouselComponent() {
             Good Slogans for Food Delivery Buisness are the to attract
             <span>the More Customer and Earn Good Money.</span>
           </p>
-          <button className="btn">Show Menu</button>
+          <Link to="/The-Restro/product">
+            <button className="btn">Show Menu</button>
+          </Link>
           <div className="icons">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-whatsapp"></i>
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-whatsapp"></i>
+            <i className="fab fa-instagram"></i>
           </div>
         </div>
       </div>
